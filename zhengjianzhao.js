@@ -7,11 +7,11 @@
 
 [rewrite_local]
 
-^https:\/\/standard\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/izyq/QuanX/main/zhengjianzhao.js
+^https:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/izyq/QuanX/main/zhengjianzhao.js
 
 [mitm] 
 
-hostname = standard.rhinoxlab.com
+hostname = appss.rhinoxlab.com
 
 
 *******************************/
