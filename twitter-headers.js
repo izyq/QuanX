@@ -3,7 +3,7 @@
 twitter
 
 [rewrite_local]
-^https:\/\/twitter\.com.* url script-response-body https://raw.githubusercontent.com/izyq/QuanX/main/aifengtool.js
+^https:\/\/twitter\.com.* url script-response-headers https://github.com/izyq/QuanX/raw/main/twitter-headers.js
 
 [mitm]
 hostname = twitter.com
